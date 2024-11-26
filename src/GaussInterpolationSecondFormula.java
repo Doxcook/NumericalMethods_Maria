@@ -5,7 +5,7 @@ public class GaussInterpolationSecondFormula {
     public static void main(String[] args) {
         // Исходные данные
         double[] x = {10, 15, 20, 25, 30};
-        double[] y = {}; // Если y пустой, он будет вычислен.
+        double[] y = {}; // Если y пустой, он будет вычислен. Если надо, то заполни его исходя из данных задания
 
         // Если массив y пустой, вычисляем его как y = x^3
         if (y.length == 0) {
